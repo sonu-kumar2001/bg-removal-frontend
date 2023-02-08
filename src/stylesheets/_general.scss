@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  font-size: 0;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  font-family: $heading-font;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+}
+body {
+  font-family: $body-font;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+// text-center
+.text-center {
+  text-align: center;
+}
+// button
+
+// padding top-bottom
+.padding {
+  padding: 3rem 0;
+}
+// hidden
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
