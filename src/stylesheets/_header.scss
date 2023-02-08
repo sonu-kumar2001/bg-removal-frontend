@@ -20,7 +20,7 @@ header {
     ul {
       align-items: center;
       .sign-up {
-        background-color: #bac0c4;
+        background-color: #F6CA5A;
         padding: 0.7rem 1.5rem;
         border-radius: 20px;
         p {
@@ -35,6 +35,23 @@ header {
           color: #54616c;
         }
       }
+    }
+    .nav-func{
+      align-items: center;
+    }
+    .loggedin-username {
+      font-weight:600;
+      font-size: 1.3rem;
+      color: #54616c;
+      cursor: pointer;
+    }
+    .logout {
+      margin-left: 10px;
+     font-weight: 500;
+      background-color: #BAC0C4;
+      padding: 8px 20px;
+      border-radius: 20px;
+      cursor:pointer;
     }
   }
 }

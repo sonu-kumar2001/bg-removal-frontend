@@ -1,11 +1,12 @@
 import axios from "axios";
 import { getFromLocalStorage } from "../helper/storage";
 const token = getFromLocalStorage("authToken");
-const removeBg = (payload) =>
-  axios.post("/api/v1/upload", payload, {
+
+const activityDetails = () =>
+  axios.get("/api/v1/activity/details", {
     headers: {
       Authorization: token,
     },
   });
 
-export default removeBg;
+export default activityDetails;

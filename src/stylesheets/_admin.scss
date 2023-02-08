@@ -1,0 +1,14 @@
+.activity {
+    width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    .heading {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    .details {
+        margin-top: 1.2rem;
+    }
+}

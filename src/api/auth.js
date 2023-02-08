@@ -1,5 +1,6 @@
 import axios from "axios";
 
+
 const setAuthHeaders = (setLoading = () => null) => {
   axios.defaults.headers = {
     Accept: "application/json",
